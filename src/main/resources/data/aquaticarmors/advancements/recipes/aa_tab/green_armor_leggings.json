@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "aquaticarmors:green_armor_leggings"
+    ]
+  },
+  "criteria": {
+    "obtention": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aquaticarmors:green_prismarine"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "aquaticarmors:green_armor_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtention",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "aquaticarmors:very_shiny_prismarine"
+    }
+  },
+  "result": {
+    "item": "aquaticarmors:very_shiny_armor_leggings"
+  }
+}
