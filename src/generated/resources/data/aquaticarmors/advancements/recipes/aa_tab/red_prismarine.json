@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "aquaticarmors:red_prismarine"
+    ]
+  },
+  "criteria": {
+    "obtention": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aquaticarmors:green_prismarine"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "aquaticarmors:red_prismarine"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtention",
+      "has_the_recipe"
+    ]
+  ]
+}

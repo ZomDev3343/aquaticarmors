@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DPD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:red_dye"
+    },
+    "P": {
+      "item": "aquaticarmors:green_prismarine"
+    }
+  },
+  "result": {
+    "item": "aquaticarmors:red_prismarine"
+  }
+}
